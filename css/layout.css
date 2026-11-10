@@ -83,5 +83,5 @@ footer {
 }
 
 #om-oss p {
-  width: 640px;
+ max-width: 640px;
 }
