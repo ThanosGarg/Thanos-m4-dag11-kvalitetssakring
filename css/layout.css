@@ -42,7 +42,7 @@ section {
 
 #om-oss {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--space-1) var(--space-4);
 }
 
