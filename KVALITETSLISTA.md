@@ -1,36 +1,41 @@
-# Kvalitetslista (dag 11)
+# Quality checklist (day 11)
 
-Gå igenom listan uppifrån och ned. Kryssa av när du kontrollerat.
+Work through the list from top to bottom. Check off each item after verifying it.
 
 ## HTML
-- [ ] Validerar i validator.w3.org utan fel
-- [ ] `lang="sv"` på `<html>`
-- [ ] Exakt en `<h1>` per sida
-- [ ] Rubrikhierarkin hoppar inte (h1, h2, h3)
-- [ ] Semantiska element används (header, nav, main, section, article, footer)
-- [ ] Inga dubblerade `id`
-- [ ] Alla länkar går någonstans (testa dem)
 
-## Tillgänglighet
-- [ ] Alla bilder har alt-text som beskriver bilden
-- [ ] Alla formulärfält har en kopplad `label`
-- [ ] Alla knappar är `<button>` (inte `<div>`)
-- [ ] All text klarar kontrast 4,5:1
-- [ ] Du kan använda hela sidan med bara tangentbordet
-- [ ] Fokus syns alltid
+- [x] Validates at validator.w3.org without errors
+- [x] `lang="sv"` is set on `<html>`
+- [x] Exactly one `<h1>` per page
+- [x] The heading hierarchy does not skip levels (h1, h2, h3)
+- [x] Semantic elements are used (header, nav, main, section, article, footer)
+- [x] No duplicate `id` values
+- [x] All links lead somewhere (test them)
+
+## Accessibility
+
+- [x] All images have alt text describing the image
+- [x] All form fields have an associated `label`
+- [x] All buttons are `<button>` elements (not `<div>` elements)
+- [x] All text meets a contrast ratio of 4.5:1
+- [x] You can use the entire page with only the keyboard
+- [x] Focus is always visible
 
 ## CSS
-- [ ] `box-sizing: border-box` är satt
-- [ ] Färger och avstånd kommer från variabler
-- [ ] Inga oanvända eller felstavade klasser
-- [ ] Filerna är uppdelade och logiskt namngivna
 
-## Responsivitet
-- [ ] Ingen horisontell scroll på 360 px
-- [ ] Fungerar på 360, 768 och 1280 px
-- [ ] Bilder och formulärfält anpassar sig
+- [x] `box-sizing: border-box` is set
+- [x] Colors and spacing come from variables
+- [x] No unused or misspelled classes
+- [x] Files are split up and named logically
 
-## Git och publicering
-- [ ] Commit per ändring, med begripliga meddelanden
-- [ ] Allt är pushat
-- [ ] Live-sidan visar senaste versionen
+## Responsiveness
+
+- [x] No horizontal scrolling at 360 px
+- [x] Works at 360, 768, and 1280 px
+- [x] Images and form fields adapt to the available width
+
+## Git and publishing
+
+- [x] One commit per change, with clear messages
+- [x] Everything has been pushed
+- [x] The live site shows the latest version
